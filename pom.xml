@@ -9,6 +9,13 @@
     <description>ms-common-jms</description>
     <packaging>jar</packaging>
 
+    <distributionManagement>
+        <repository>
+            <id>jms-commons</id>
+            <url>https://maven.pkg.github.com/MrSkinface/ms-common-jms</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
